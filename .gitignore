@@ -1,0 +1,91 @@
+# Environment
+# ------------------------------------------------------------------------------
+# Never commit your environment variables and secrets file.
+.env
+
+# Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+env/
+.env/
+.direnv/
+
+# Python
+# ------------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually dist/ but some people exclude AppImage files
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Django
+# ------------------------------------------------------------------------------
+# Local database file
+db.sqlite3
+db.sqlite3-journal
+
+# Collected static files
+staticfiles/
+
+# User-uploaded media files
+media/
+
+# Log files
+*.log
+logs/
+
+# Local settings (if you use this pattern instead of .env)
+local_settings.py
+
+# Miscellaneous
+# ------------------------------------------------------------------------------
+# IDE settings folders
+.idea/
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
